@@ -1,0 +1,1 @@
+-- Write a function similar to canDonateTo that takes two patients as arguments rather than two BloodTypes.
