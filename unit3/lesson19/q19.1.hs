@@ -1,6 +1,8 @@
 -- Write a function emptyDrawers that takes the output of getDrawerContents
 -- and tells you the number of drawers that are empty. 
 
+import Data.Maybe
+
 data Organ = Heart | Brain | Kidney | Spleen deriving (Show, Eq)
 
 sampleResults :: [Maybe Organ]
